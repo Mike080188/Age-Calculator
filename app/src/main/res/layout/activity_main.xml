@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:hint="@string/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:hint="@string/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editTextBirthdate"
+        android:hint="Please enter D.O.B (mm/dd/yyyy)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonCalcAge"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/buttonCalcAge" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/editTextNumber"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:text="@string/textViewTile" />-->
+<!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--    &lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--    &lt;!&ndash;        app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/buttonCheckIfPrime"-->
+<!--        android:hint="Please include a natural number"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+<!--    <Button-->
+<!--        android:id="@+id/textViewResult"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="gone"/>-->
+
+</LinearLayout>
