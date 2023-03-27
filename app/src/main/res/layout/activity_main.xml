@@ -11,25 +11,28 @@
 
     <EditText
         android:id="@+id/editTextFirstName"
-        android:hint="@string/editTextFirstName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:hint="@string/editTextFirstName" />
     <EditText
         android:id="@+id/editTextLastName"
         android:hint="@string/editTextLastName"
+        android:layout_marginBottom="@dimen/fab_margin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/editTextBirthdate"
         android:hint="Please enter D.O.B (mm/dd/yyyy)"
         android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/fab_margin"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/buttonCalcAge"
         android:layout_width="235dp"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="center_horizontal"
         android:text="@string/buttonCalcAge" />
 
     <!--    <TextView-->
